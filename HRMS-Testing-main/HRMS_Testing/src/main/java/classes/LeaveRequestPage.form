@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="classes.LeaveRequestPage">
+  <grid id="27dc6" binding="LeaveRequestPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="691" height="577"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d1c67" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <labelFor value="d9efa"/>
+          <text value="End Date :    "/>
+        </properties>
+      </component>
+      <component id="d9efa" class="javax.swing.JTextField" binding="endField">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.2"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2a478" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.2"/>
+        </constraints>
+        <properties>
+          <lightWeightPopupEnabled value="true"/>
+          <model>
+            <item value="Sick Leave"/>
+            <item value="Vacation Leave"/>
+            <item value="Maternity Leave"/>
+            <item value="Emergency Leave"/>
+            <item value="Paternity Leave"/>
+          </model>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <selectedIndex value="-1"/>
+        </properties>
+      </component>
+      <component id="e5a7" class="javax.swing.JButton" binding="btnsubmit">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.3"/>
+        </constraints>
+        <properties>
+          <maximumSize width="120" height="40"/>
+          <minimumSize width="120" height="40"/>
+          <preferredSize width="120" height="40"/>
+          <text value="Submit "/>
+        </properties>
+      </component>
+      <component id="3a96a" class="javax.swing.JTextField" binding="startField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.2"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d7560" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Start Date :    "/>
+        </properties>
+      </component>
+      <hspacer id="60807">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="c9c1c">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="d88e2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <component id="a2672" class="javax.swing.JLabel" binding="LeaveType">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Leave Type :"/>
+        </properties>
+      </component>
+      <component id="9f019" class="javax.swing.JLabel" binding="RequestLeave">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.5"/>
+          <font size="36"/>
+          <horizontalAlignment value="0"/>
+          <maximumSize width="350" height="50"/>
+          <minimumSize width="350" height="50"/>
+          <preferredSize width="330" height="50"/>
+          <text value="Request Leave"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

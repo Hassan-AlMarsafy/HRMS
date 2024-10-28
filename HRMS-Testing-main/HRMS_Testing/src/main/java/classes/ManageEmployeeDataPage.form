@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="classes.ManageEmployeeDataPage">
+  <grid id="27dc6" binding="ManageEmployeeDataPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e155b" class="javax.swing.JButton" binding="addButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <maximumSize width="150" height="40"/>
+          <minimumSize width="100" height="40"/>
+          <preferredSize width="100" height="40"/>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="c449c" class="javax.swing.JButton" binding="editButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="150" height="40"/>
+          <minimumSize width="100" height="40"/>
+          <preferredSize width="100" height="40"/>
+          <text value="Edit"/>
+        </properties>
+      </component>
+      <component id="c4cbd" class="javax.swing.JButton" binding="removeButton">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="150" height="40"/>
+          <minimumSize width="100" height="40"/>
+          <preferredSize width="100" height="40"/>
+          <text value="Remove"/>
+        </properties>
+      </component>
+      <component id="d4e71" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.2" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="150" height="40"/>
+          <minimumSize width="100" height="40"/>
+          <preferredSize width="100" height="40"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <scrollpane id="356ba" binding="TablePane">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e5dae" class="javax.swing.JTable" binding="EmployeeDataTable">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <cellSelectionEnabled value="false"/>
+              <fillsViewportHeight value="true"/>
+              <rowSelectionAllowed value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="ec7c">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="aaec7">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1f263">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="1d57c">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
